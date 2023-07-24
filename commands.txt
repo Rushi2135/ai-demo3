@@ -1,0 +1,452 @@
+(base) dai@dai-Precision-7820-Tower:~/git_example$ mkdir test4
+(base) dai@dai-Precision-7820-Tower:~/git_example$ cd test4
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/dai/git_example/test4/.git/
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git branch 
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ sudo git clone https://github.com/rushi2135/ai-demo3.git
+[sudo] password for dai: 
+Cloning into 'ai-demo3'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git branch 
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ nano prog.py
+nano: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libncursesw.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libncursesw.so.6: no version information available (required by nano)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ py
+py3clean            pyct                pydocstyle          pygettext3.10       pylint-config       pyrsa-keygen        pytest              python3.9           pyuic5              
+py3compile          pydoc               pyflakes            pygmentize          pylsp               pyrsa-priv2pub      python              python3.9-config    
+py3versions         pydoc3              pyftmerge           pyhtmlizer          pyreverse           pyrsa-sign          python3             python3-config      
+pybabel             pydoc3.10           pyftsubset          pyjson5             pyrsa-decrypt       pyrsa-verify        python3.10          python3-futurize    
+pycodestyle         pydoc3.9            pygettext3          pylint              pyrsa-encrypt       py.test             python3.10-config   python3-pasteurize  
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ pyt
+pytest              python              python3             python3.10          python3.10-config   python3.9           python3.9-config    python3-config      python3-futurize    python3-pasteurize
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ python3 prog.py 
+Enter num1: 2
+Enter num2: 4
+The multiplication is:  8
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ 
+
+
+
+
+
+
+
+
+
+
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git branch 
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git add .
+warning: adding embedded git repository: ai-demo3
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> ai-demo3
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached ai-demo3
+hint: 
+hint: See "git help submodule" for more information.
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git branch 
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git commit -m "first com"
+[master (root-commit) 1858fae] first com
+ 2 files changed, 5 insertions(+)
+ create mode 160000 ai-demo3
+ create mode 100644 prog.py
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git branch 
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+* master
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git branch -m master main
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git branch 
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+* main
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ ls
+ai-demo3  prog.py
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ sudo gedit Dockerfile
+
+(gedit:16100): dconf-WARNING **: 16:56:41.917: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+(gedit:16100): dconf-WARNING **: 16:56:41.921: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+(gedit:16100): dconf-WARNING **: 16:56:42.609: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+(gedit:16100): dconf-WARNING **: 16:56:42.609: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+(gedit:16100): dconf-WARNING **: 16:56:42.609: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+(gedit:16100): dconf-WARNING **: 16:58:07.174: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+(gedit:16100): dconf-WARNING **: 16:58:08.655: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+(gedit:16100): dconf-WARNING **: 16:58:09.790: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+(gedit:16100): dconf-WARNING **: 16:58:11.071: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+
+** (gedit:16100): WARNING **: 17:02:09.477: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:16100): WARNING **: 17:02:09.477: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:16100): WARNING **: 17:02:12.699: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+
+(gedit:16100): dconf-WARNING **: 17:02:12.718: failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ ls
+ai-demo3  Dockerfile  prog.py
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git add .
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git commit -m "Doc com"
+[main 7f1dd28] Doc com
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Dockerfile
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git status 
+On branch main
+nothing to commit, working tree clean
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git log
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+commit 7f1dd281f13a123556e481b8c848fc733bbd9239 (HEAD -> main)
+Author: rushikesh kumbhakarn <sounkk024@gmail.com>
+Date:   Mon Jul 24 17:03:00 2023 +0530
+
+    Doc com
+
+commit 1858faec0af2978890c56c0e89f544c901fd9f90
+Author: rushikesh kumbhakarn <sounkk024@gmail.com>
+Date:   Mon Jul 24 16:46:22 2023 +0530
+
+    first com
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ git push -u origin main
+fatal: no path specified; see 'git help pull' for valid url syntax
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ sudo git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ ls
+ai-demo3  Dockerfile  prog.py
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ mv Dockerfile ai-demo3/
+mv: cannot move 'Dockerfile' to 'ai-demo3/Dockerfile': Permission denied
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ sudo mv Dockerfile ai-demo3/
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ sudo pro
+pro       profiles  protoc    prove     
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ sudo mv prog.py ai-demo3/
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ ls
+ai-demo3
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ sudo git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ cd ai-demo3/
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ sudo git push -u origin main
+Username for 'https://github.com': rushi2135
+Password for 'https://rushi2135@github.com': 
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ git branch 
+fatal: detected dubious ownership in repository at '/home/dai/git_example/test4/ai-demo3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/dai/git_example/test4/ai-demo3
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ git config --global --add safe.directory /home/dai/git_example/test4/ai-demo3
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ sudo git push -u origin main
+Username for 'https://github.com': rushi2135
+Password for 'https://rushi2135@github.com': 
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ git branch 
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+* main
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ git log 
+/usr/bin/pager: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by /usr/bin/pager)
+commit 78aaada2c811c3fe292a06c713e44963e26d37ca (HEAD -> main, origin/main, origin/HEAD)
+Author: Rushikesh Deepak Kumbhakarn <93213843+Rushi2135@users.noreply.github.com>
+Date:   Mon Jul 24 16:40:51 2023 +0530
+
+    Initial commit
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ git add .
+fatal: Unable to create '/home/dai/git_example/test4/ai-demo3/.git/index.lock': Permission denied
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ sudo git add .
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ sudo git commit -m "in dir com"
+[main 867752a] in dir com
+ 2 files changed, 9 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 prog.py
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ sudo git push -u origin main
+Username for 'https://github.com': rushi2135
+Password for 'https://rushi2135@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 470 bytes | 470.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Rushi2135/ai-demo3.git
+To https://github.com/rushi2135/ai-demo3.git
+   78aaada..867752a  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/ai-demo3$ cd ..
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ mkdir testing_test4
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4$ cd testing_test4/
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/dai/git_example/test4/testing_test4/.git/
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4$ sudo git clone https://github.com/rushi2135/ai-demo3.git
+Cloning into 'ai-demo3'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 0), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4$ ls
+ai-demo3
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4$ cd ai-demo3/
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo do
+do                  domainname          done                do-release-upgrade  dosfsck             dosfslabel          dotenv              
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo docker build -t python:v1
+sudo: docker: command not found
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo apt install docker.io
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libflashrom1 libftdi1-2 libllvm13
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  bridge-utils containerd pigz runc ubuntu-fan
+Suggested packages:
+  ifupdown aufs-tools btrfs-progs cgroupfs-mount | cgroup-lite debootstrap docker-doc rinse zfs-fuse | zfsutils
+The following NEW packages will be installed:
+  bridge-utils containerd docker.io pigz runc ubuntu-fan
+0 upgraded, 6 newly installed, 0 to remove and 27 not upgraded.
+Need to get 72.1 MB of archives.
+After this operation, 286 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 pigz amd64 2.6-1 [63.6 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 bridge-utils amd64 1.7-1ubuntu3 [34.4 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 runc amd64 1.1.4-0ubuntu1~22.04.3 [4,244 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 containerd amd64 1.6.12-0ubuntu1~22.04.3 [34.4 MB]
+Get:5 http://in.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 docker.io amd64 20.10.21-0ubuntu1~22.04.3 [33.3 MB]
+Get:6 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 ubuntu-fan all 0.12.16 [35.2 kB]                                                                                                           
+Fetched 72.1 MB in 7s (10.9 MB/s)                                                                                                                                                                         
+Preconfiguring packages ...
+Selecting previously unselected package pigz.
+(Reading database ... 221751 files and directories currently installed.)
+Preparing to unpack .../0-pigz_2.6-1_amd64.deb ...
+Unpacking pigz (2.6-1) ...
+Selecting previously unselected package bridge-utils.
+Preparing to unpack .../1-bridge-utils_1.7-1ubuntu3_amd64.deb ...
+Unpacking bridge-utils (1.7-1ubuntu3) ...
+Selecting previously unselected package runc.
+Preparing to unpack .../2-runc_1.1.4-0ubuntu1~22.04.3_amd64.deb ...
+Unpacking runc (1.1.4-0ubuntu1~22.04.3) ...
+Selecting previously unselected package containerd.
+Preparing to unpack .../3-containerd_1.6.12-0ubuntu1~22.04.3_amd64.deb ...
+Unpacking containerd (1.6.12-0ubuntu1~22.04.3) ...
+Selecting previously unselected package docker.io.
+Preparing to unpack .../4-docker.io_20.10.21-0ubuntu1~22.04.3_amd64.deb ...
+Unpacking docker.io (20.10.21-0ubuntu1~22.04.3) ...
+Selecting previously unselected package ubuntu-fan.
+Preparing to unpack .../5-ubuntu-fan_0.12.16_all.deb ...
+Unpacking ubuntu-fan (0.12.16) ...
+Setting up runc (1.1.4-0ubuntu1~22.04.3) ...
+Setting up bridge-utils (1.7-1ubuntu3) ...
+Setting up pigz (2.6-1) ...
+Setting up containerd (1.6.12-0ubuntu1~22.04.3) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+Setting up ubuntu-fan (0.12.16) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/ubuntu-fan.service → /lib/systemd/system/ubuntu-fan.service.
+Setting up docker.io (20.10.21-0ubuntu1~22.04.3) ...
+Adding group `docker' (GID 140) ...
+Done.
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+Processing triggers for man-db (2.10.2-1) ...
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo docker build -t python:v1
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ ls
+Dockerfile  prog.py  README.md
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ py
+py3clean            pyct                pydocstyle          pygettext3.10       pylint-config       pyrsa-keygen        pytest              python3.9           pyuic5              
+py3compile          pydoc               pyflakes            pygmentize          pylsp               pyrsa-priv2pub      python              python3.9-config    
+py3versions         pydoc3              pyftmerge           pyhtmlizer          pyreverse           pyrsa-sign          python3             python3-config      
+pybabel             pydoc3.10           pyftsubset          pyjson5             pyrsa-decrypt       pyrsa-verify        python3.10          python3-futurize    
+pycodestyle         pydoc3.9            pygettext3          pylint              pyrsa-encrypt       py.test             python3.10-config   python3-pasteurize  
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ python3 prog.py 
+Enter num1: 2
+Enter num2: 5
+The multiplication is:  10
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ docker build --help
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+
+Options:
+      --add-host list           Add a custom host-to-IP mapping (host:ip)
+      --build-arg list          Set build-time variables
+      --cache-from strings      Images to consider as cache sources
+      --cgroup-parent string    Optional parent cgroup for the container
+      --compress                Compress the build context using gzip
+      --cpu-period int          Limit the CPU CFS (Completely Fair Scheduler) period
+      --cpu-quota int           Limit the CPU CFS (Completely Fair Scheduler) quota
+  -c, --cpu-shares int          CPU shares (relative weight)
+      --cpuset-cpus string      CPUs in which to allow execution (0-3, 0,1)
+      --cpuset-mems string      MEMs in which to allow execution (0-3, 0,1)
+      --disable-content-trust   Skip image verification (default true)
+  -f, --file string             Name of the Dockerfile (Default is 'PATH/Dockerfile')
+      --force-rm                Always remove intermediate containers
+      --iidfile string          Write the image ID to the file
+      --isolation string        Container isolation technology
+      --label list              Set metadata for an image
+  -m, --memory bytes            Memory limit
+      --memory-swap bytes       Swap limit equal to memory plus swap: '-1' to enable unlimited swap
+      --network string          Set the networking mode for the RUN instructions during build (default "default")
+      --no-cache                Do not use cache when building the image
+      --pull                    Always attempt to pull a newer version of the image
+  -q, --quiet                   Suppress the build output and print image ID on success
+      --rm                      Remove intermediate containers after a successful build (default true)
+      --security-opt strings    Security options
+      --shm-size bytes          Size of /dev/shm
+      --squash                  Squash newly built layers into a single new layer
+  -t, --tag list                Name and optionally a tag in the 'name:tag' format
+      --target string           Set the target build stage to build.
+      --ulimit ulimit           Ulimit options (default [])
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo docker build -f Dockerfile:v1
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ ls
+Dockerfile  prog.py  README.md
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo docker build -t testfilee:v1
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo docker build -t testfile:v1 .
+Sending build context to Docker daemon  61.44kB
+Step 1/5 : FROM pyhton3
+pull access denied for pyhton3, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ cat Dockerfile 
+FROM pyhton3
+RUN apt updae -y
+RUN mkdir /dir1
+COPY prog.py /dir1
+CMD ["python3","prog.py"]
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ nano
+nano: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libncursesw.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libncursesw.so.6: no version information available (required by nano)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ nano Dockerfile 
+nano: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libncursesw.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libncursesw.so.6: no version information available (required by nano)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ nano Dockerfile 
+nano: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libtinfo.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libncursesw.so.6: no version information available (required by nano)
+nano: /home/dai/anaconda3/lib/libncursesw.so.6: no version information available (required by nano)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo nano Dockerfile 
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo docker build -t testfile:v1 .
+Sending build context to Docker daemon  61.44kB
+Step 1/5 : FROM python3
+pull access denied for python3, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ ls
+Dockerfile  prog.py  README.md
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo nano Dockerfile 
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo nano Dockerfile 
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo docker build -t testfile:v1 .
+Sending build context to Docker daemon  61.44kB
+Step 1/4 : FROM python
+latest: Pulling from library/python
+d52e4f012db1: Pull complete 
+7dd206bea61f: Pull complete 
+2320f9be4a9c: Pull complete 
+6e5565e0ba8d: Pull complete 
+d3797e13cc41: Pull complete 
+70f90dfe001b: Pull complete 
+bd75605de417: Pull complete 
+3d0e1a4b14bc: Pull complete 
+Digest: sha256:d73088ce13d5a1eec1dd05b47736041ae6921d08d2f240035d99642db98bc8d4
+Status: Downloaded newer image for python:latest
+ ---> c0e63845ae98
+Step 2/4 : RUN mkdir /dir1
+ ---> Running in 4d21aace5263
+Removing intermediate container 4d21aace5263
+ ---> 64147823de33
+Step 3/4 : COPY prog.py /dir1/
+ ---> f9b907230a1d
+Step 4/4 : CMD ["python","/dir1/prog.py"]
+ ---> Running in 9e95e774daab
+Removing intermediate container 9e95e774daab
+ ---> 7b3604310ed0
+Successfully built 7b3604310ed0
+Successfully tagged testfile:v1
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo docker run --rm -ti testfile:v1
+Enter num1: 5
+Enter num2: 5
+The multiplication is:  25
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ ls
+Dockerfile  prog.py  README.md
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo git add .
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo git commit -m "Finnal com"
+[main 4e66826] Finnal com
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ sudo git push -u origin main
+Username for 'https://github.com': rushi2135
+Password for 'https://rushi2135@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 376 bytes | 376.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Rushi2135/ai-demo3.git
+To https://github.com/rushi2135/ai-demo3.git
+   867752a..4e66826  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+(base) dai@dai-Precision-7820-Tower:~/git_example/test4/testing_test4/ai-demo3$ 
